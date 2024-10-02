@@ -8,5 +8,6 @@ jobs:
     name: Sai hi to the user
     runs-on: ubuntu-latest
     steps: 
+      - run: exit 1
       - name: Run echo
         run: echo "Hello World!"
